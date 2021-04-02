@@ -467,7 +467,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Planets: []
-  smoothSpeed: 0.125
+  setTimer: 0.5
+  maxSmoothSpeed: 1
+  minSmoothSpeed: 0.125
   offset: {x: 0, y: 30, z: 0}
 --- !u!1 &999377135
 GameObject:
