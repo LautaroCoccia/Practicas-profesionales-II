@@ -7,12 +7,11 @@ public class MyCamera : MonoBehaviour
     [Header("references")]
     public List<GameObject> SpaceObj;
 
-    public float maxSmoothSpeed;
-    public float minSmoothSpeed;
-    public Vector3 offset;
+    [SerializeField] private float maxSmoothSpeed;
+    [SerializeField] private float minSmoothSpeed;
+    [SerializeField] private Vector3 offset;
 
     int objSelector = 0;
-    int index = 0;
     float smoothSpeed = 0;
 
     // Start is called before the first frame update
@@ -26,8 +25,6 @@ public class MyCamera : MonoBehaviour
         {
             SpaceObj.Add(planet);
         }
-        index = SpaceObj.Count - 1;
-
         //start offset on camera
         objSelector = 0;
         smoothSpeed = 1;
