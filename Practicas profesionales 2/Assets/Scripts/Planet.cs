@@ -3,16 +3,17 @@ using UnityEngine;
 
 public class Planet : MonoBehaviour
 {
-    public float radius;
-    public float speed = 1 ;
-    public float angle = 50;
-    public float rotationangle = 100;
+    [SerializeField] private float radius;
+    [SerializeField] private float translationSpeed = 1;
+    [SerializeField] private float translationRadius = 50;
+    [SerializeField] private float rotationSpeed = 1;
+    [SerializeField] private Vector3 rotationAxis = new Vector3(0, 100,0);
 
+    Transform spaceshipObj;
     // Start is called before the first frame update
     void Start()
     {
         radius = transform.position.x;
-        
     }
     // Update is called once per frame
     void Update()
@@ -23,13 +24,17 @@ public class Planet : MonoBehaviour
     void Planetmovement()
     {
         Vector3 v3 = Vector3.zero;
-        angle += speed * Time.deltaTime;
-        rotationangle += speed * Time.deltaTime;
 
-        v3.x = radius * Mathf.Cos(angle);
-        v3.z = radius * Mathf.Sin(angle);
+        rotationAxis += new Vector3(0, rotationSpeed * Time.deltaTime, 0);
+        translationRadius += translationSpeed * Time.deltaTime;
+
+        v3.x = radius * Mathf.Cos(translationRadius);
+        v3.z = radius * Mathf.Sin(translationRadius);
 
         transform.position = v3;
-        transform.rotation = Quaternion.Euler(0, rotationangle, 0);
+
+        transform.rotation = Quaternion.Euler(rotationAxis);
     }
 }
+
+
