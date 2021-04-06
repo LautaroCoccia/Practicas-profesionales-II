@@ -19,7 +19,6 @@ public class Spaceship : MonoBehaviour
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
 
-        Vector3 direct = new Vector3(hor, 0, 0);
         if (ver>0)
         {
             spaceshipTrail.time = maxTime;
