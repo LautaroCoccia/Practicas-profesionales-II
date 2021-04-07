@@ -2,18 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyCamera : Initializer
+public class MyCamera : MonoBehaviour
 {
     [SerializeField] private float maxSmoothSpeed;
     [SerializeField] private float minSmoothSpeed;
     [SerializeField] private Vector3 offset;
-
+    public List<GameObject> SpaceObj;
     int objSelector = 0;
     float smoothSpeed = 0;
-
+    
     // Start is called before the first frame update
     void Start()
     {
+        foreach (GameObject spaceship in GameObject.FindGameObjectsWithTag("spaceship"))
+        {
+            SpaceObj.Add(spaceship);
+        }
+        foreach (GameObject sun in GameObject.FindGameObjectsWithTag("sun"))
+        {
+            SpaceObj.Add(sun);
+        }
+        foreach (GameObject planet in GameObject.FindGameObjectsWithTag("planets"))
+        {
+            SpaceObj.Add(planet);
+        }
         //start offset on camera
         objSelector = 0;
         smoothSpeed = 1;
@@ -113,7 +125,7 @@ public class MyCamera : Initializer
     }
     void OffsetSetter()
     {
-        if(SpaceObj[objSelector].tag == "planets")
+        if(SpaceObj[objSelector].tag == "planets" || SpaceObj[objSelector].tag == "sun")
         {
             offset = new Vector3(0, SpaceObj[objSelector].transform.localScale.y + 2, 0);
         }

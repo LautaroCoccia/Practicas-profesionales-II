@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 143945036}
   m_Layer: 0
   m_Name: Sun
-  m_TagString: planets
+  m_TagString: sun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -336,7 +336,6 @@ GameObject:
   - component: {fileID: 398819738}
   - component: {fileID: 398819742}
   - component: {fileID: 398819743}
-  - component: {fileID: 398819744}
   m_Layer: 0
   m_Name: Neptune
   m_TagString: planets
@@ -472,8 +471,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 613485241
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 2
   m_Parameters:
@@ -541,19 +540,6 @@ TrailRenderer:
   m_MinVertexDistance: 0
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &398819744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398819737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e91cb5f137a2349aeb929ff85b54f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpaceObj: []
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,7 +552,6 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
-  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -651,22 +636,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c4b62b5d280a04cbddfac518438139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpaceObj: []
   maxSmoothSpeed: 1
   minSmoothSpeed: 0.125
   offset: {x: 0, y: 30, z: 0}
---- !u!114 &963194230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f592a628af1db8a4c8a61ea48d27c82a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   SpaceObj: []
 --- !u!1 &999377135
 GameObject:
@@ -774,7 +746,6 @@ GameObject:
   - component: {fileID: 1001700899}
   - component: {fileID: 1001700903}
   - component: {fileID: 1001700904}
-  - component: {fileID: 1001700905}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: planets
@@ -910,8 +881,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 613485241
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 2
   m_Parameters:
@@ -979,19 +950,6 @@ TrailRenderer:
   m_MinVertexDistance: 0
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &1001700905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1001700898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e91cb5f137a2349aeb929ff85b54f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpaceObj: []
 --- !u!1 &1425633781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,7 +964,6 @@ GameObject:
   - component: {fileID: 1425633782}
   - component: {fileID: 1425633786}
   - component: {fileID: 1425633787}
-  - component: {fileID: 1425633788}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: planets
@@ -1142,8 +1099,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 613485241
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 2
   m_Parameters:
@@ -1211,19 +1168,6 @@ TrailRenderer:
   m_MinVertexDistance: 0
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &1425633788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1425633781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e91cb5f137a2349aeb929ff85b54f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpaceObj: []
 --- !u!1 &1523127662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1238,7 +1182,6 @@ GameObject:
   - component: {fileID: 1523127663}
   - component: {fileID: 1523127667}
   - component: {fileID: 1523127668}
-  - component: {fileID: 1523127669}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: planets
@@ -1374,8 +1317,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 613485241
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 3
   m_Parameters:
@@ -1443,19 +1386,6 @@ TrailRenderer:
   m_MinVertexDistance: 0
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &1523127669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1523127662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e91cb5f137a2349aeb929ff85b54f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpaceObj: []
 --- !u!1 &1589372232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,7 +1400,6 @@ GameObject:
   - component: {fileID: 1589372233}
   - component: {fileID: 1589372237}
   - component: {fileID: 1589372238}
-  - component: {fileID: 1589372239}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: planets
@@ -1606,8 +1535,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 613485241
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 2
   m_Parameters:
@@ -1675,19 +1604,6 @@ TrailRenderer:
   m_MinVertexDistance: 0
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &1589372239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589372232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e91cb5f137a2349aeb929ff85b54f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpaceObj: []
 --- !u!1 &1726034154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,7 +1657,6 @@ GameObject:
   - component: {fileID: 1762837803}
   - component: {fileID: 1762837807}
   - component: {fileID: 1762837808}
-  - component: {fileID: 1762837809}
   m_Layer: 0
   m_Name: Venus
   m_TagString: planets
@@ -1877,8 +1792,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 613485241
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 2
   m_Parameters:
@@ -1946,19 +1861,6 @@ TrailRenderer:
   m_MinVertexDistance: 0
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &1762837809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762837802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e91cb5f137a2349aeb929ff85b54f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpaceObj: []
 --- !u!1 &2065799168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,7 +1875,6 @@ GameObject:
   - component: {fileID: 2065799169}
   - component: {fileID: 2065799173}
   - component: {fileID: 2065799174}
-  - component: {fileID: 2065799175}
   m_Layer: 0
   m_Name: Earth
   m_TagString: planets
@@ -2109,8 +2010,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 613485241
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 2
   m_Parameters:
@@ -2178,19 +2079,6 @@ TrailRenderer:
   m_MinVertexDistance: 0
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &2065799175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065799168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e91cb5f137a2349aeb929ff85b54f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpaceObj: []
 --- !u!1 &2076428191
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,7 +2093,6 @@ GameObject:
   - component: {fileID: 2076428192}
   - component: {fileID: 2076428196}
   - component: {fileID: 2076428197}
-  - component: {fileID: 2076428198}
   m_Layer: 0
   m_Name: Mars
   m_TagString: planets
@@ -2341,8 +2228,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 613485241
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 2
   m_Parameters:
@@ -2410,19 +2297,6 @@ TrailRenderer:
   m_MinVertexDistance: 0
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &2076428198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076428191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e91cb5f137a2349aeb929ff85b54f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpaceObj: []
 --- !u!33 &1307381988192761876
 MeshFilter:
   m_ObjectHideFlags: 0
