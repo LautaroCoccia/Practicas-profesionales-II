@@ -429,6 +429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db4f94da1c680b4a817a865af128d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshPlanet: {fileID: 398819739}
+  spaceship: {fileID: 2705286136971278257}
   radius: 0
   translationSpeed: 1.6
   translationRadius: 50
@@ -839,6 +841,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db4f94da1c680b4a817a865af128d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshPlanet: {fileID: 1001700900}
+  spaceship: {fileID: 2705286136971278257}
   radius: 0
   translationSpeed: 1.2
   translationRadius: 50
@@ -1057,6 +1061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db4f94da1c680b4a817a865af128d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshPlanet: {fileID: 1425633783}
+  spaceship: {fileID: 2705286136971278257}
   radius: 0
   translationSpeed: 1.5
   translationRadius: 1
@@ -1275,6 +1281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db4f94da1c680b4a817a865af128d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshPlanet: {fileID: 1523127664}
+  spaceship: {fileID: 2705286136971278257}
   radius: 0
   translationSpeed: 0.5
   translationRadius: 50
@@ -1493,6 +1501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db4f94da1c680b4a817a865af128d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshPlanet: {fileID: 1589372234}
+  spaceship: {fileID: 2705286136971278257}
   radius: 0
   translationSpeed: 0.7
   translationRadius: 50
@@ -1750,6 +1760,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db4f94da1c680b4a817a865af128d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshPlanet: {fileID: 1762837804}
+  spaceship: {fileID: 2705286136971278257}
   radius: 0
   translationSpeed: 0.9
   translationRadius: 50
@@ -1968,6 +1980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db4f94da1c680b4a817a865af128d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshPlanet: {fileID: 2065799170}
+  spaceship: {fileID: 2705286136971278257}
   radius: 0
   translationSpeed: 1
   translationRadius: 1
@@ -2186,6 +2200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db4f94da1c680b4a817a865af128d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  meshPlanet: {fileID: 2076428193}
+  spaceship: {fileID: 2705286136971278257}
   radius: 0
   translationSpeed: 1.3
   translationRadius: 1
