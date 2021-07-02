@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TP2 living starmap.unity
+    guid: 9362de12ec11c0c438f3fcdf631efd65
   m_configObjects: {}

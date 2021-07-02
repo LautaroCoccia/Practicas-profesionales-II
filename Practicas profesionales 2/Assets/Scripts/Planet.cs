@@ -10,9 +10,9 @@ public class Planet : MonoBehaviour
     [SerializeField] private float translationRadius = 50;
     [SerializeField] private float rotationSpeed = 1;
     [SerializeField] private Vector3 rotationAxis = new Vector3(0, 100,0);
+    Vector3 v3 = Vector3.zero;
     Material mat;
     Color originalColor;
-    Vector3 v3 = Vector3.zero;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +37,7 @@ public class Planet : MonoBehaviour
 
     void Planetmovement()
     {
-        rotationAxis += new Vector3(0, rotationSpeed * Time.deltaTime, 0);
+        //rotationAxis += new Vector3(0, rotationSpeed * Time.deltaTime, 0);
         translationRadius += translationSpeed * Time.deltaTime;
 
         v3.x = radius * Mathf.Cos(translationRadius);
@@ -45,7 +45,7 @@ public class Planet : MonoBehaviour
 
         transform.position = v3;
 
-        transform.rotation = Quaternion.Euler(rotationAxis);
+        //transform.rotation = Quaternion.Euler(rotationAxis);
     }
     float CalculateDistance()
     {
